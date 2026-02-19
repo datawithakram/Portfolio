@@ -1,0 +1,14 @@
+Due to GitHub file size limitations, the full dataset is hosted on Kaggle.
+
+Download the complete Banking Dataset from:
+https://www.kaggle.com/datasets/akrambelha/synthetic-banking-dataset-csv-sql-sqlite
+
+Dataset includes:
+- CSV files (accounts, customers, transactions, loans, etc.)
+- SQL scripts
+- SQLite database file
+
+After downloading, place the files inside:
+banking_data/csv/
+banking_data/sql/
+banking_data/
