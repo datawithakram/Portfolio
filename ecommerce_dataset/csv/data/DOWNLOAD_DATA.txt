@@ -1,0 +1,9 @@
+The full E-commerce datasets (1M and 100k records) are hosted on Kaggle.
+
+Download links:
+1M Records Dataset:
+https://www.kaggle.com/datasets/akrambelha/global-e-commerce-dataset-1m-records-20242026
+
+After downloading, place files inside:
+ecommerce_dataset/1m/csv/data/
+ecommerce_dataset/1m/excel/data/
