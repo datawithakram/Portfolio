@@ -19,10 +19,8 @@ This repository contains multiple end-to-end projects, including data processing
 
 ```
 banking_data/
-├── csv/               
-├── sql/               
-├── dashboards/        
-├── bank_sqlite.db     
+├── dashboards/         
+├── data/               
 └── Eda.ipynb          
 ```
 
@@ -35,15 +33,13 @@ banking_data/
 
 ### 2. E-commerce Data Project
 
-```
+```ecommerce_dataset/csv/dashboards/app.py
 ecommerce_dataset/
-├── 1m/
-│   ├── csv/        
-│   ├── excel/      
+├── csv/
+│   ├── data/              
 │   └── dashboards/   
-├── 100k/
-│   ├── csv/        
-│   ├── excel/      
+├── excel/
+│   ├── data/        
 │   └── dashboards/   
 ```
 
@@ -96,7 +92,8 @@ pip install streamlit pandas matplotlib seaborn
 
 ```bash
 streamlit run banking_data/dashboards/app.py
-streamlit run ecommerce_dataset/1m/dashboards/app.py
+streamlit run ecommerce_dataset/csv/dashboards/app.py
+streamlit run ecommerce_dataset/excel/dashboards/app.py
 ```
 
 ### Open Power BI dashboards
@@ -151,3 +148,4 @@ I am a passionate **Data Analyst & Data Engineer**, continuously exploring large
 ---
 
 **Thank you for visiting my portfolio!**
+
